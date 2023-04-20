@@ -1,0 +1,825 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+}
+img{
+    max-width: 100%;
+}
+button{
+    cursor: pointer;
+}
+.header{
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+.header-right{
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+#web-services{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125px;
+    color: #292F36;
+    text-decoration: none;
+}
+#web-services:hover{
+    color: #b2cbe6;
+}
+.search-bar{
+    display: flex;
+    /* background-color: #b2cbe6; */
+    gap: 5px;
+}
+.search-bar input{
+    border: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px; 
+    color: #292F36;
+    display: none; 
+    border: 1px solid;
+    padding-left: 10px;
+}
+.hero{
+    margin: 0 auto;
+    width: 1200px;
+}
+.banner{
+    background-image: url("img/Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+.banner-content{
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 90%;
+}
+#hero-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 125%;
+    color: #292F36;
+}
+.banner-mid{
+    width: 40%;
+}
+#hero-discription{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    margin-top: 18px;
+}
+.get-started-button{
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+    padding: 26px 49px;
+    margin-top: 21px;
+    border: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    color: #fff;
+}
+.get-started-button:hover{
+    background: #3f4042;
+}
+#shade{
+    color: #CDA274;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* End of section-1 */
+.process-section{
+    margin: 0 auto;
+    width: 1150px;
+    margin-top: 200px;
+}
+.process{
+    text-align: center;
+    width: 32%;
+}
+.process-topic{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    color: #292F36;
+    margin-bottom: 20px;
+}
+.process-discription{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    margin-bottom: 52px;
+}
+.read-more-achor{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #4D5053;
+    text-decoration: none;
+}
+.read-more-achor:hover{
+    color: #a0aab4 ;
+}
+.all-processes{
+    display: flex;
+    justify-content: space-between;
+}
+/* End of section-2 */
+.advertisement-section{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 200px;
+}
+.advertisement-left-section{
+    width: 39.33%;
+}
+#advertisement-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+    margin-bottom: 33px;
+}
+#advertisement-discription{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    margin-bottom: 45px;
+}
+.call-details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 47px;
+}
+#phone-no{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+#timing{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+.number--timing{
+    margin-left: 15px;
+
+}
+#estimation-button{
+    padding: 26px 31px;
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+    border: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+#estimation-button:hover{
+    background: #3f4042;   
+}
+.advertisement-right-section{
+    width: 54.41666666666667%;
+}
+.advertisement-content{
+    display: flex;
+    justify-content: space-between;
+}
+/* End of section-3 */
+.review-section{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 200px;
+    background-color: #F4F0EC;
+    padding: 88px 0px;
+    border-radius: 70px;
+}
+.review-section-content{
+    margin: 0 auto;
+    width: 95.83333333333333%;
+}
+#review-section-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+.review-section-heading{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 38px;
+}
+.all-reviews{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.review{
+    width: 32.17391304347826% ; 
+}
+.reviewer-details{
+    display: flex;
+    align-items: center;
+}
+#reviewer-name{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #292F36;
+}
+#reviewer-adress{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+.reviewer-name--adress{
+    margin-left: 23px;
+}
+.actual-review{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    margin-top: 25px;
+}
+.review{
+    background-color: #fff;
+    padding: 53px 37px;
+    border-radius: 30px;
+}
+/* End of section-4 */
+.brands{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+/* End of section-5 */
+.catalogue-section{
+    margin: 0 auto;
+    width: 1200px;
+}
+.catalogue-headings{
+    text-align: center;
+    margin: 0 auto;
+    width: 61%;
+    margin-bottom: 93px;
+}
+#main-catalogue-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+#catalogue-sub-heading{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+.design{
+    width: 45%;
+}
+.design-img{
+    margin-bottom: 24px;
+}
+.design-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design-name{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+    margin-bottom: 4px;
+}
+.type{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+.catalogue-1,.catalogue-2{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 99px; */
+}
+.catalogue-1{
+    margin-bottom: 56px;
+}
+.more-info-img{
+    cursor: pointer;
+}
+.more-info-img svg circle:hover{
+    fill: rgb(236, 206, 175);
+}
+/* End of section-6 */
+.achivements-section{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 150px;
+    background-color: #F4F0EC ;
+    padding: 151px 0px;
+}
+.all-achivements{
+    display: flex;
+    text-align: center;  
+    justify-content: center;
+    gap: 76px;
+}
+#numbers{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #CDA274;
+}
+#reason{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    margin-top: 16px;
+}
+.achivement{
+    padding-right: 54px;
+    border-right: 1px solid #CDA274;
+}
+/* End of section-7 */
+.news-section{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 200px;
+}
+.news-section-header{
+    margin: 0 auto;
+    width: 68%;
+    text-align: center;
+    margin-bottom: 52px;
+}
+.news-section-main-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+}
+.news-section-subhead{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+.all-news{
+    display: flex;
+    gap: 27px;
+}
+.news{
+    width: 31.83333333333333%;
+    border: 1px solid #E7E7E7;
+    filter: drop-shadow(0px 10px 30px rgba(255, 255, 255, 0.25));
+    padding: 21px 21px;
+    border-radius: 62px;
+}
+.news:hover{
+    background-color: rgb(244, 240, 236);
+    cursor: pointer;
+}
+.date--moreinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.actual-news{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #292F36;
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+.date{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #4D5053;
+}
+/* End of section-8 */
+.join-section{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 200px;
+    text-align: center;
+    background: #292F36;
+    padding: 80px 0px;
+    border-radius: 70px;
+}
+#join-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+#join-subhead{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+#contact-button{
+    background: #CDA274;
+    box-shadow: 0px 10px 20px #1F2022;
+    border-radius: 18px;
+    padding: 26px 37px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+#contact-button:hover{
+    background: #ee983c;
+}
+#shade-2{
+    color: #292F36;
+}
+/* End of section-9 */
+.footer{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 138px;
+}
+.footer-sections{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sections-1{
+    width: 32.75%;
+}
+#footer-discription{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    margin-top: 18px;
+    margin-bottom: 31px;
+}
+.social-handles{
+    display: flex;
+    gap: 54px;
+}
+.footer-sections-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#pages-content{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 300%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    text-decoration: none;
+}
+.section-heading{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    color: #292F36;
+}
+#contact-section{
+    width: 22%;
+}
+.end-of-web{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 134px;
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    padding: 5px 0px;
+    border-top: 1px solid #4D5053;
+}
+.search-system{   
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    top: 0px;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    display: none;
+}
+.search-system  input{
+    margin-top: 300px;
+    border: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: white;
+    padding: 5px 0px;
+    /* border-top: 1px solid #4D5053; */
+    background: transparent;
+}
+.search-system svg path{
+    /* opacity: 40; */
+    stroke: white;
+
+}
+.inputs span{
+    font-size: 28px;
+}
+/* End of website */
+
+
+@media screen and (max-width : 1199px){
+    .header,
+    .hero,
+    .process-section,
+    .advertisement-section,
+    .review-section,.brands,
+    .catalogue-section,
+    .achivements-section,
+    .news-section,
+    .join-section,
+    .footer{
+        width: 90%;
+    }
+}
+@media screen and (max-width : 1025px){
+
+    .banner-mid{
+        width: 100%;
+        text-align: center;
+    }
+    .all-achivements{
+        gap: 25px;
+    }
+    .all-reviews{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .review{
+        width: 80%;
+    }
+    .advertisement-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .advertisement-left-section,.advertisement-right-section{
+        width: 100%;
+        text-align: center;
+    }
+    .call-details{
+        justify-content: center;
+    }
+    .review-section-heading,.catalogue-headings{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 920px){
+    .footer-sections{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .footer-sections-1{
+        width: 100%;
+        text-align: center;
+    }
+    .social-handles{
+        justify-content: center;
+    }
+    .footer-sections-2{
+        text-align: center;
+        width: 50%;
+        border: 1px solid ;
+    }
+    #contact-section{
+        width: 50%;
+    }
+    .news-section-header{
+        width: 100%;
+    }
+    .all-news{
+        flex-direction: column;
+        align-items: center;
+    }
+    .news{
+        width: 90%;
+        text-align: center;
+    }
+    .brands{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px;
+        /* text-align: center; */
+    }
+    .brands img{
+        width: 15%;
+    }
+    .all-achivements{
+        flex-wrap: wrap;
+    }
+    .all-processes{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .process{
+        width: 90%;
+        padding: 3%;
+        box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    }
+}
+@media screen and (max-width : 811px){
+    .header{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width : 665px){
+    .design-info{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .end-of-web{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width : 621px){
+    #hero-heading,#advertisement-heading,#review-section-heading,#main-catalogue-heading,.news-section-main-heading,#join-heading{
+        font-size: 40px;
+    }
+    #hero-discription,#advertisement-discription,#catalogue-sub-heading{
+        font-size: 20px;
+    }
+    .header-right {
+        gap: 15px;
+    }
+    #web-services{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 532px){
+    .reviewer-details{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .review{
+        text-align: center;
+    }
+}
+@media screen and (max-width : 486px){
+    .advertisement-discription,.news-section-subhead{
+        font-size: 14px;
+    }
+    .design-name{
+        font-size: 18px;
+    }
+    .type{
+        font-size: 15px;
+    }
+    #join-heading{
+        font-size: 25px;
+    }
+    #join-subhead{
+        font-size: 12px;
+    }
+    #contact-button,.get-started-button{
+        font-size: 12px;
+    }
+    .get-started-button{
+        font-size: 12px;
+    }
+}
