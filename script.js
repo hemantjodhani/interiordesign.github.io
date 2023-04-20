@@ -1,9 +1,9 @@
 $(document).ready(function(){
-
+    
     $('.header-right img').click( function(){
         $('.search-system').fadeIn();
     });
-
+    
     $('.inputs span').click(function(){
         $('.search-system').fadeOut();
     });
@@ -17,17 +17,19 @@ $(document).ready(function(){
           $('.search-system').fadeOut();
         }
     }); 
-
+    
     $(".search-system .inputs").click( function(e) {
-        // console.log(e);
+
         if (this !== e.target) return;
 
         $(".search-system").fadeOut();
     } );
-    $("a").click(function(){
+    
+    $(".menu-item").click(function(event){
 
-        alert()
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $( $(this).attr("href")).offset().top
+        }, 2000);
     });
-
 });
-
