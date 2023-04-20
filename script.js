@@ -24,6 +24,10 @@ $(document).ready(function(){
 
         $(".search-system").fadeOut();
     } );
+    $("a").click(function(){
+
+        alert()
+    });
 
 });
 
